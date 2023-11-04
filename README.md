@@ -14,8 +14,11 @@ Create a **GitHub** repository called “st2195_assignment_3” that includes:
 2. A folder called “r_sql” with a R code for constructing the database (from the csv inputs) and executing the following queries. The latter should be done both using **DBI** and **dplyr** notation [_1.75 points each_]
 
 a. Which airplanes has the lowest associated average departure delay (excluding cancelled and diverted flights)?
+
 b. Which cities has the highest number of inbound flights (excluding cancelled flights)?
+
 c. Which companies has the highest number of cancelled flights?
+
 d. Which companies has the highest number of cancelled flights, relative to their number of total flights?
 
 3. A folder called “python_sql” with a Python version of the code in point 2, based on **sqlite3** [_1.75 points_]
