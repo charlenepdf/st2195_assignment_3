@@ -12,17 +12,16 @@ Create a **GitHub** repository called “st2195_assignment_3” that includes:
 1. A "README.md" file with a short markdown description of this assignment and a reference to the _Data Expo 2009_ data, and the _Harvard Dataverse_ [_1 point_]
 
 2. A folder called “r_sql” with a R code for constructing the database (from the csv inputs) and executing the following queries. The latter should be done both using **DBI** and **dplyr** notation [_1.75 points each_]
+  
+   a. Which airplanes has the lowest associated average departure delay (excluding cancelled and diverted flights)?
+   b. Which cities has the highest number of inbound flights (excluding cancelled flights)?
 
-a. Which airplanes has the lowest associated average departure delay (excluding cancelled and diverted flights)?
+   c. Which companies has the highest number of cancelled flights?
 
-b. Which cities has the highest number of inbound flights (excluding cancelled flights)?
+   d. Which companies has the highest number of cancelled flights, relative to their number of total flights?
 
-c. Which companies has the highest number of cancelled flights?
+4. A folder called “python_sql” with a Python version of the code in point 2, based on **sqlite3** [_1.75 points_]
 
-d. Which companies has the highest number of cancelled flights, relative to their number of total flights?
-
-3. A folder called “python_sql” with a Python version of the code in point 2, based on **sqlite3** [_1.75 points_]
-
-4. A simplified solution for the query in point 2(d) in either R or Python (placed either in the R or Python “*_sql” folder) [_1.75 points_]
+5. A simplified solution for the query in point 2(d) in either R or Python (placed either in the R or Python “*_sql” folder) [_1.75 points_]
 
 Note that the database file should not be placed in the **GitHub** repository (it is quite large). Also, the R and Python scripts should save the output of the queries in csv within their respective folders [_1 point each_]
